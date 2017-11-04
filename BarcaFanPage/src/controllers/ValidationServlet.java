@@ -11,27 +11,22 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import Entity.User;
+import dao.UserDao;
+
 @WebServlet("/ValidationServlet")
 public class ValidationServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private static Map<String, String> users;
-	private static String name;
-	private static String password;
+
   
-    public ValidationServlet() {
+    public ValidationServlet() { 
         super();
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		name = request.getParameter("Login");
-		password = request.getParameter("Pass");
-		if (users == null) {
-			users = new HashMap<>();
-
-		users.put(name, password);
-		PrintWriter out = response.getWriter();
-		out.print(users);
-		}
+		User user = new User(request.getParameter("name"),request.getParameter("email"), request.getParameter("password"));
+		UserDao.addUserToDatabase(user);
+		System.out.println(UserDao.allUsers());
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

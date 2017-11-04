@@ -28,4 +28,26 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>WebContent/css</name>
+			<type>2</type>
+			<location>C:/Users/serhi/Desktop/Bez_w_chmurze/Project/sing up/css</location>
+		</link>
+		<link>
+			<name>WebContent/js</name>
+			<type>2</type>
+			<location>C:/Users/serhi/Desktop/Bez_w_chmurze/Project/sing up/js</location>
+		</link>
+		<link>
+			<name>WebContent/scss</name>
+			<type>2</type>
+			<location>C:/Users/serhi/Desktop/Bez_w_chmurze/Project/sing up/scss</location>
+		</link>
+		<link>
+			<name>WebContent/images/fon.jpg</name>
+			<type>1</type>
+			<location>C:/Users/serhi/Desktop/static1.squarespace.jpg</location>
+		</link>
+	</linkedResources>
 </projectDescription>
