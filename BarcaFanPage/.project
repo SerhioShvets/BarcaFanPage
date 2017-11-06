@@ -45,9 +45,9 @@
 			<location>C:/Users/serhi/Desktop/Bez_w_chmurze/Project/sing up/scss</location>
 		</link>
 		<link>
-			<name>WebContent/images/fon.jpg</name>
+			<name>WebContent/WEB-INF/lib/mysql-connector-java-5.1.44-bin.jar</name>
 			<type>1</type>
-			<location>C:/Users/serhi/Desktop/static1.squarespace.jpg</location>
+			<location>D:/Programs/jee-oxygen/eclipse/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44-bin.jar</location>
 		</link>
 	</linkedResources>
 </projectDescription>
